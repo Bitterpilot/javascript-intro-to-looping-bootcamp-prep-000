@@ -1,6 +1,6 @@
 function forLoop(array) {
   for (var i = 0; i < 25; i++) {
-    array.push("I am ${i} strange loops.")
+    array = array.push("I am "i" strange loops.")
   }
 }
 
@@ -17,10 +17,10 @@ function doWhileLoop(array) {
   function incrementVariable() {
     i = i + 1;
   }
-  
+
   do {
     array.pop();
   } while (array.length > 0 && incrementVariable());
-  
+
   return array
 }
