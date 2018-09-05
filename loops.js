@@ -5,6 +5,9 @@ function forLoop(array) {
     } else {
       array.push("I am " + i + " strange loop.");
     }
+    // When the if statment is reversed 
+    //    if ( i = 1 )
+    // it results in fatal error process out of memory
   }
   return array
 }
